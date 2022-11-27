@@ -1,0 +1,30 @@
+.header {
+  height: 7vh;
+  width: 100%;
+  padding: 0 3vw;
+  background-color: #242424;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavList {
+  list-style: none;
+}
+
+.NavLink {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.NavLink:hover {
+  background-color: #424242;
+}
+
+.NavItem {
+  display: inline;
+  margin: 0 1vh 0 1vh;
+}
